@@ -21,7 +21,7 @@ export default new MedoneEventBuilder()
      * @type {import('../../classes/ContextMenus.js').MedoneContextMenuBuilder} contextmenu
      */
     const contextmenu =
-      client.aphlaton.contextMenus.message[interaction.commandName];
+      client.medone.contextMenus.message[interaction.commandName];
 
     // return if the command doesn't exist
     if (!contextmenu) return;
