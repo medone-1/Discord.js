@@ -6,7 +6,7 @@ import { log } from "./functions.js";
 
 dotenv.config();
 
-// create the aphlaton client instance
+// create the medone client instance
 const client = new Medone();
 client.start(process.env.CLIENT_TOKEN || config.client.token);
 
